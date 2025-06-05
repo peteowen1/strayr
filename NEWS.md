@@ -4,6 +4,7 @@
 `absmapsdata` similarly to `read_absmap()`
 * updated `anzsco2006` to include leading zeros in codes (see ). This is a backwards incompatible change that may cause issues (not enough for a major version progression)
 * fixed duplication in auholidays
+* added the ABS OSCA 2024 v1.0 classification as the `osca2024` dataset, including corresponding documentation and tests
 
 # strayr 0.2.2
 * `anzsco2022` updated to reflect changes made by the ABS
