@@ -114,6 +114,34 @@
 "anzsco2022"
 
 
+#' OSCA 2024
+#'
+#' Wide table containing all levels of the Occupation Standard Classification
+#' for Australia (OSCA), 2024 v1.0. OSCA was developed by the Australian Bureau
+#' of Statistics (ABS) to provide a more contemporary and detailed
+#' classification of occupations, and is intended to supersede ANZSCO.
+#'
+#' @format A \code{tibble} with 11 variables:
+#' \describe{
+#' \item{\code{osca_major_code}}{OSCA major group codes, e.g. "3"}
+#' \item{\code{osca_major}}{OSCA major group names in title case, e.g. "Technicians and Trades Workers"}
+#' \item{\code{osca_submajor_code}}{OSCA sub-major group codes, e.g. "37"}
+#' \item{\code{osca_submajor}}{OSCA sub-major group names in title case, e.g. "Building Structural Trades Workers"}
+#' \item{\code{osca_minor_code}}{OSCA minor group codes, e.g. "371"}
+#' \item{\code{osca_minor}}{OSCA minor group names in title case, e.g. "Bricklayers, Stonemasons and Concreters"}
+#' \item{\code{osca_unit_code}}{OSCA unit group codes, e.g. "3711"}
+#' \item{\code{osca_unit}}{OSCA unit group names in title case, e.g. "Bricklayers and Stonemasons"}
+#' \item{\code{osca_occupation_code}}{OSCA occupation codes, e.g. "371131"}
+#' \item{\code{osca_occupation}}{OSCA occupation in title case, e.g. "Bricklayer"}
+#' \item{\code{skill_level}}{Skill level assigned to occupation, determined by the ABS (1 is highest, 5 is lowest).
+#' See \url{https://www.abs.gov.au/ausstats/abs@.nsf/Previousproducts/C4BECE1704987586CA257089001A9181 } for details.}
+#' }
+#'
+#' @source \url{https://www.abs.gov.au/statistics/classifications/osca-occupation-standard-classification-australia/2024-version-1-0}
+#'
+"osca2024"
+
+
 #' ANZSIC 2006
 #'
 #' Wide table containing all levels of the Australian and New Zealand Standard
