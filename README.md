@@ -16,7 +16,7 @@ The `strayr` package provides tools to make working with Australian data
 easier. This includes:
 
 - tidy versions of common structures used by the Australian Bureau of
-  Statistics (ABS), like ANZSIC and ANZSCO:
+  Statistics (ABS), like ANZSIC, ANZSCO, and OSCA:
 
 - a function to tidy up state names (`clean_states()`);
 
@@ -45,6 +45,9 @@ remotes::install_github("runapp-aus/strayr")
 
 Current structures stored in `strayr` are:
 
+- Occupation Standard Classification for Australia (**OSCA**):
+  - `osca2024`: occupation levels of OSCA,
+    [2024](https://www.abs.gov.au/statistics/classifications/osca-occupation-standard-classification-australia/2024-version-1-0)
 - Australian and New Zealand Standard Classification of Occupations
   (**ANZSCO**), Cat. 1220.0:
   - `anzsco2022`: occupation levels of ANZSCO,
