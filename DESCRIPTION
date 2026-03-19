@@ -38,6 +38,7 @@ Suggests:
     sf,
     here,
     ggplot2,
+    ckanr,
     bench
 Encoding: UTF-8
 LazyData: true
